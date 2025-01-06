@@ -25,7 +25,7 @@ export default function Training({ trainingname, i, deleteTraining }) {
       <span>Last : {training}</span>
       <span>Target : {predictNext()}</span>
       <div className="flex flex-col gap-1 p-1">
-        <label htmlFor="atteint">New number</label>
+        <label htmlFor="atteint">New target</label>
         <input
           type="number"
           id="atteint"
